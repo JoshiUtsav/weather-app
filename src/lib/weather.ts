@@ -2,11 +2,6 @@
 const API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY || "demo";
 const BASE_URL = "http://api.weatherapi.com/v1";
 
-// @typescript-eslint/no-unused-vars
-const DEFAULT_LAT = 40.7128;
-// @typescript-eslint/no-unused-vars
-const DEFAULT_LON = -74.006;
-
 export interface WeatherData {
   current: {
     temp_c: number;
